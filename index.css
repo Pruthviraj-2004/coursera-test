@@ -1,79 +1,87 @@
-
-* {
-    box-sizing: border-box;
+.container-fluid{
+	margin: 0;
+	padding: 0;
 }
 
-h1{
-    text-align: center;
-    margin: 25px;
-    padding: 10px;
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
 }
 
-.p1 , .p2 , .p3{
-    background-color: grey;
-    border: 2px solid black;
-    padding: 10px;
-    padding-top: 0;
-    padding-right: 0;
-    margin: 10px;
-    float: left;
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
 }
 
-.chicken , .beef , .sushi {
-    border: 2px solid black;
-    text-align: center;
-    width: 100px;
+.navbar-brand:hover{
+	color: white;
 }
 
-.chicken{
-    background-color: pink;
-    float: right;
-    clear: both;
-}
-.beef{
-    background-color: maroon;
-    color: white ;
-    float: right;
-    clear: both;
-}
-.sushi{
-    background-color: yellow;
-    float: right;
-    clear: both;
+.nav{
+	margin: 0;
+	padding: 0;
 }
 
-@media (min-width: 992px){
-    .p1{
-        width:31%;
-    }
-    .p2{
-        width:31%;
-    }
-    .p3{
-        width:31%;
-    }
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-    .p1{
-        width:46%;
-    }
-    .p2{
-        width:46%;
-    }
-    .p3{
-        width:97%;
-    }
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
 }
 
-@media (max-width: 767px){
-    .p1{
-        width:95%;
-    }
-    .p2{
-        width:95%;
-    }
-    .p3{
-        width:95%;
-    }
+.icon-bar{
+	background-color: white;
+}
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
 }
